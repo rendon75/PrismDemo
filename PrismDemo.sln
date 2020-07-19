@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30309.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismDemo", "PrismDemo\PrismDemo.csproj", "{FACF8EC6-CF7C-45F5-B3F6-6208674EF5CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrismDemo", "PrismDemo\PrismDemo.csproj", "{FACF8EC6-CF7C-45F5-B3F6-6208674EF5CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuleA", "ModuleA\ModuleA.csproj", "{6FD13E86-7577-4063-BBAF-36E9C4B8CBA3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{FACF8EC6-CF7C-45F5-B3F6-6208674EF5CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FACF8EC6-CF7C-45F5-B3F6-6208674EF5CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FACF8EC6-CF7C-45F5-B3F6-6208674EF5CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FD13E86-7577-4063-BBAF-36E9C4B8CBA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FD13E86-7577-4063-BBAF-36E9C4B8CBA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FD13E86-7577-4063-BBAF-36E9C4B8CBA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FD13E86-7577-4063-BBAF-36E9C4B8CBA3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,5 +1,6 @@
 ﻿using Prism.DryIoc;
 using Prism.Ioc;
+using Prism.Modularity;
 using Prism.Regions;
 using PrismDemo.Core.Regions;
 using PrismDemo.Views;
@@ -29,6 +30,11 @@ namespace PrismDemo
 
             regionAdapterMappings.RegisterMapping(typeof(StackPanel),
                 Container.Resolve<StackPanelRegionAdapter>());
+        }
+
+        protected override IModuleCatalog CreateModuleCatalog()
+        {
+            return new DirectoryModuleCatalog() { ModulePath = @".\Modules" };
         }
     }
 }
